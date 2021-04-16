@@ -1,0 +1,80 @@
+body{
+    display:flex;
+    }
+#header{
+    display: flex;
+    position: fixed;
+    top:0px;
+    padding-left:500px;
+}
+
+.nav-link{
+    font-size:120%;
+    margin:0px 70px 0px 0px;
+}
+#body{
+    padding-top:220px;
+}
+
+#How-it-made{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.item1{background:rgb(103, 204, 238);}
+.item2{background:LightSalmon;}
+.item3{background:PaleTurquoise;}
+
+#pricing{
+    font-size:30px;
+    height:500px;
+    width:100%;
+    background:LightGray;
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    grid-gap: 20px;
+}
+@media 
+  (min-device-width: 100px) 
+  and (max-device-width: 200px){
+#pricing{
+    font-size:30px;
+    height:300px;
+    width:100%;
+    background:LightGray;
+    display:grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 500px 500px 500px;
+    grid-gap: 20px;
+}
+}
+#submit{
+    font-size:140%;
+    border-radius: 10px;
+    color:red;
+    background-color:lightblue;
+    width:90px;
+}
+#email{
+    font-size:150%;
+    height:40px;
+    border-radius: 4px;
+}
+#nav-bar{
+    background-color: silver;
+    height:30px;
+}
+.division{
+    font-size:115%;
+    padding-bottom: 150px;
+    background-color:yellow;
+}
+#rupees {
+    text-align: center;
+}
